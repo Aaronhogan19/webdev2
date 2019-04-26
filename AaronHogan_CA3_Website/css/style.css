@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: lightblue;
+	text-align: center;
+    background-repeat: repeat-x;
+	position: fixed;
+}
+ 
+h1 {
+	color: red;
+    text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 20px 94.65px;
+  text-decoration:none;
+  border-style: solid;
+  border-color: purple;
+  float: left;
+}
+
+li a:hover {
+  background-color: red;
+}
+
+p {
+	color: purple;
+	font-size: 30px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+footer{
+	color: red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 15%;
+  padding: 3px 4px;
+}
+
+.column img {
+  margin-top: 2px;
+  vertical-align: middle;
+}
+
+img{
+	border-radius: 
+}
+.website{
+	border-radius: 50%;
+}
+strong{
+	color: black;
+}
+
+.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	background-color: orange;
+	min-wdith: 150px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+body {
+	height:100%;
+	position: relative;
+}
+
+img{
+	z-index: -1;
+}
+fieldset{
+	display: block;
+}
